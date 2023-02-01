@@ -31,8 +31,7 @@ export default class MovieList extends React.Component {
         let arr;
         arr = movies.map( (movies, index ) => 
             <Movie title={movies.title} plot={movies.plot} reviews={movies.reviews} image={movies.image} key={index} />
-        ) /*the array includes subarrays for each piece of the film data and the index; uses map
-        method to populate the array*/
+        ) 
 
         return (
             
@@ -44,7 +43,7 @@ export default class MovieList extends React.Component {
                 <div>
                     {arr}
                 </div>  
-            </div> /*returning the movies array*/
+            </div>
        )
     } 
 }

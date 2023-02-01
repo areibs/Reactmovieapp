@@ -12,6 +12,34 @@ code {
     monospace;
 }
 title {
-  font-size: 40px;
+  font-size: 300px;
 
+
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  background-color:black;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border-style: solid;
+  border-width: 20px;
+  border-color: red;
+}
+
+img {
+ height: 400px;
+
+}
+
+#card-header {
+font-size: 600px;
 }
